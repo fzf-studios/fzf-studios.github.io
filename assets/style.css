@@ -287,6 +287,14 @@ h1 {
 
 .btn-ghost:hover { background: var(--surface-strong); transform: translateY(-2px); }
 
+.btn-discord {
+  background: #5865f2;
+  color: #fff;
+  box-shadow: 0 10px 30px -12px rgba(88, 101, 242, 0.7);
+}
+
+.btn-discord:hover { background: #6d79f5; transform: translateY(-2px); }
+
 .link {
   color: var(--muted);
   font-size: 14px;
@@ -479,6 +487,8 @@ h3 {
 }
 
 .foot nav { display: flex; flex-wrap: wrap; gap: 10px 24px; margin-bottom: 14px; }
+.foot .foot-social { gap: 10px 20px; }
+.foot .foot-social a { color: var(--text); font-weight: 500; }
 .foot a { text-underline-offset: 4px; }
 .foot a:hover { color: var(--text); }
 .foot p { margin: 0; }
